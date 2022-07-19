@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-contant{
+ display: flex;
+}
+.contant img{
+    width:100%
+    
+}
+.contant{
+    width:100%;
+
+}
+.container{
+    background-color: rgb(53, 6, 6); 
+    width: 900px;
+    height: 70vh;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
+}
+.main{
+    justify-content: center;
+}
+.top{
+    font-size: 40px;
+    
+}
+.tant{
+    padding-left: 10%;
+}
+.hit{
+    font-size: 15px;
+    
+}
+.click{
+    border: 50px;
+    padding: 10px;
+    background-color: red;
+}
+.box{
+    margin-top: 3%;
+}

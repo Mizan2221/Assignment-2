@@ -72,6 +72,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5px;
+    
 }
 .ken{
     margin-top: 10%;
@@ -88,6 +89,7 @@ body{
 }
 .en{
     color: white;
+    width: 75%;
 }
 .ken{
     background-color: black;
@@ -104,7 +106,12 @@ body{
     background-color: red;
 }
 .time{
-    display: flex;
+    display: flex;   
 }
-
-        
+.fa-solid{
+    color: plum;
+}
+.cool{
+    margin-right: 20px;
+    text-decoration: none;
+}

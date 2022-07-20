@@ -1,7 +1,12 @@
-body{
+   /* -------- body style added --------- */
+   
+.body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+
+/* ------ top section style added  -----> */
+
 .top-contant{
  display: flex;
 }
@@ -28,10 +33,11 @@ body{
     justify-content: center;
 }
 
-  .top{
-    font-size: 40px;
+.top{
+    font-size: 40px;   
+} 
+    /* ------ animation added   -----> */
 
-  } 
 .top:hover{
     background-color: crimson;
 }
@@ -39,18 +45,22 @@ body{
 .tant{
     padding-left: 10%;
 }
+
 .hit{
     font-size: 15px;
     
 }
 .click{
     border: 50px;
-    padding: 10px;
+    padding: 15px;
     background-color: red;
 }
+
 .box{
     margin-top: 3%;
 }
+     /* ------ form style added  -----> */
+
 .manu{
     width: 200px;
     height: 200px;
@@ -60,25 +70,26 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;   
 }
+
 .course .course-banner img{
     width: 224px;
     height: 104px;
 }
+
 .course-title{
     width: 200px ;
     font-size: 10px;
 }
+
 .section-top{
     margin-top: 10%;
-   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    
+    grid-column-gap: 5px;   
 }
+
 .ken{
     margin-top: 10%;
     width: 100%;
@@ -89,33 +100,41 @@ body{
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-weight: bold;
    font-size: 50px;
-   color: white;
-   
+   color: white;  
 }
+
 .en{
     color: white;
     width: 75%;
 }
+
 .ken{
     background-color: black;
     text-align: center;
     padding-top: 7%;
 }
+
 .cap{
     background-color: white;
     padding: 5px;
     text-decoration: none;
     border-radius: 10px;
 }
+
 .dap{
     background-color: red;
 }
+    /* ------ section style added  -----> */
+
 .time{
-    display: flex;   
+    display: flex;     
 }
+    /* ------ icon style added  -----> */
+
 .fa-solid{
     color: plum;
 }
+
 .cool{
     margin-right: 20px;
     text-decoration: none;
@@ -123,25 +142,109 @@ body{
 
 .vs{
     display: flex;
-    gap: 30px;
+    gap: 30px;    
 }
 
-   
-
-.vs img{
-    width: 70px;
-}
 .time{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 10%;
-    
+    margin-top: 10%;   
 }
+     /* ------ icon style added  -----> */
+
 .fa-brands{
     color: white;
     width: 70px;
 }
+     /* ------ social madia style added  -----> */
+
 .brand{
     margin-top: 4%;
 }
+  
 
+ /* -------------------------
+       Media Queries
+ ----------------------------*/
+
+   /* Mobile Devices */
+
+@media only screen and (max-width:480px) {
+    .top-contant{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .contant img{
+        width:100%;
+        height: 100vh;
+        margin-left: 10%;
+        
+    }
+    .contant{
+        width: 20%;
+    }
+    .manu{
+        margin-top: 30%;
+        margin-left: 50%;
+        width: 300%;
+    }
+    .section-top{
+        display: block;
+        margin-top: 125%;   
+    }
+
+    .container{
+        height: 300vh;
+        align-items: center;
+    
+    }
+
+    .ken{
+        width: 200%;
+        height: 100vh;
+    }     
+ }
+   /* tablet devices */
+
+ @media only screen and (min-width: 688px) and  (max-width:992px) {
+    
+    .top-contant{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .contant img{
+        width:100%;
+        height: 100vh;
+        margin-left: 10%;
+        
+    }
+    .contant{
+        width: 20%;
+    }
+    .manu{
+        margin-top: 5%;
+        margin-left: 100%;
+        width: 150%;
+    }
+    .section-top{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50%; 
+    }
+
+    .container{
+        height: 300vh;
+        align-items: center;
+    
+    }
+
+    .ken{
+        width: 140%;
+        height: 100vh;
+    }             
+
+ }

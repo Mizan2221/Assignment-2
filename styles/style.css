@@ -11,10 +11,11 @@ body{
 }
 .contant{
     width:100%;
+    color: white;
 
 }
 .container{
-    background-color: rgb(53, 6, 6); 
+    background-color: rgb(14, 6, 6);
     width: 900px;
     height: 70vh;
     margin-left: 10%;
@@ -49,7 +50,7 @@ body{
 .manu{
     width: 200px;
     height: 200px;
-    background-color: gray;
+    background-color: rgb(12, 10, 10);
     margin-left: 10%;
     margin-top: 10%;
     display: grid;
@@ -115,3 +116,27 @@ body{
     margin-right: 20px;
     text-decoration: none;
 }
+
+.vs{
+    display: flex;
+    gap: 30px;
+}
+
+   
+
+.vs img{
+    width: 70px;
+}
+.time{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10%;
+}
+.fa-brands{
+    color: white;
+    width: 70px;
+}
+.brand{
+    margin-top: 4%;
+}
+

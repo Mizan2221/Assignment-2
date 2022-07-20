@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 .top-contant{
  display: flex;
@@ -22,12 +23,14 @@ body{
     
 }
 .main{
+    display: flex;
     justify-content: center;
 }
-.top{
+
+  .top{
     font-size: 40px;
-    
-}
+  }   
+
 .tant{
     padding-left: 10%;
 }
@@ -43,3 +46,65 @@ body{
 .box{
     margin-top: 3%;
 }
+.manu{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-title{
+    width: 200px ;
+    font-size: 10px;
+}
+.section-top{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+}
+.ken{
+    margin-top: 10%;
+    width: 100%;
+    height: 50vh;
+    
+}
+.len{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 50px;
+   color: white;
+   
+}
+.en{
+    color: white;
+}
+.ken{
+    background-color: black;
+    text-align: center;
+    padding-top: 7%;
+}
+.cap{
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.dap{
+    background-color: red;
+}
+.time{
+    display: flex;
+}
+
+        
